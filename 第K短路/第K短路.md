@@ -50,7 +50,7 @@ int n, m;
 int S, T, K;
 int h[N], rh[N], e[M], ne[M], w[M], idx;
 bool st[N];
-int dist[N];
+int dist[N], cnt[N];
 
 void add(int h[], int a, int b, int c)
 {
@@ -61,11 +61,14 @@ void f()
 {
     priority_queue<PII, vector<PII>, greater<PII>> q;
     q.push({0, T});
+    
+    memset(dist, 0x3f, sizeof dist);
+    dist[T] = 0;
 
     while (q.size())
     {
         auto t = q.top();
-        q,pop();
+        q.pop();
 
         int ver = t.second;
         if (st[ver]) continue;
@@ -85,8 +88,8 @@ void f()
 
 int astar()
 {
-    queue<PIII, vector<PIII>, greater<PIII>> q;
-    q.push({0, {dist[S], S}});
+    priority_queue<PIII, vector<PIII>, greater<PIII>> q;
+    q.push({dist[S], {0, S}});
 
     while (q.size())
     {
@@ -94,7 +97,7 @@ int astar()
         q.pop();
 
         int ver = t.second.second, d = t.second.first;
-        cnt[ver] ++:
+        cnt[ver] ++;
         if (cnt[T] == K) return d;
         for (int i = h[ver]; ~i; i = ne[i])
         {
@@ -108,6 +111,8 @@ int astar()
 }
 int main()
 {
+    memset(h, -1, sizeof h);
+    memset(rh, -1, sizeof rh);
     cin >> n >> m;
     while (m --)
     {
@@ -123,5 +128,4 @@ int main()
     cout << t << endl;
     return 0;
 }
-
 ```

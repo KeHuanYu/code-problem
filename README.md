@@ -6,5 +6,12 @@
 [武士风度的牛](https://www.acwing.com/problem/content/190/)
 
 # 2026-9-5
-[(八数码)]()
+[(八数码)](https://www.acwing.com/problem/content/181/)
 [(第K短路)](https://www.acwing.com/problem/content/180/)
+
+# 2026-9-6
+[(迷宫)](https://www.acwing.com/problem/content/1114/)
+[(红与黑)](https://www.acwing.com/problem/content/1115/)
+[(马走日)](https://www.acwing.com/problem/content/1118/)
+[(单词接龙)](https://www.acwing.com/problem/content/1119/)
+[(分为互质组)](https://www.acwing.com/problem/content/1120/)
