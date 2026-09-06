@@ -4,3 +4,7 @@
 [二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal)
 [二叉树的锯齿形层序遍历](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal)
 [武士风度的牛](https://www.acwing.com/problem/content/190/)
+
+# 2026-9-5
+[(八数码)]()
+[(第K短路)](https://www.acwing.com/problem/content/180/)
