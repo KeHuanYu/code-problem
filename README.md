@@ -15,3 +15,7 @@
 [(马走日)](https://www.acwing.com/problem/content/1118/)
 [(单词接龙)](https://www.acwing.com/problem/content/1119/)
 [(分为互质组)](https://www.acwing.com/problem/content/1120/)
+
+# 2026-9-9
+[(小猫爬山)](https://www.acwing.com/activity/content/problem/content/1485/)
+[(数独)](https://www.acwing.com/activity/content/problem/content/1486/)
